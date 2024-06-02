@@ -4,7 +4,7 @@ wwv_flow_api.create_page(
  p_id=>1
 ,p_user_interface_id=>wwv_flow_api.id(2333082129878819730)
 ,p_name=>'Products Dashboard'
-,p_alias=>'PROD1'
+,p_alias=>'PROD2'
 ,p_step_title=>'Products Dashboard'
 ,p_reload_on_submit=>'A'
 ,p_warn_on_unsaved_changes=>'N'
@@ -19,7 +19,7 @@ wwv_flow_api.create_page(
 ||'the default product to report on in several other pages of the application. Click the <strong>Create Bug</strong> button to create a new bug. The "Recent Bugs" region has a <strong>+</strong> button that can be used to create a new bug as well. All c'
 ||'hart regions have a maximize button in their upper right-hand corner of their region. Most chart regions have a <strong>></strong> button that, when clicked, will display more details about the chart''s data.'
 ,p_last_updated_by=>'ADMIN'
-,p_last_upd_yyyymmddhh24miss=>'20240602105954'
+,p_last_upd_yyyymmddhh24miss=>'20240602110447'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(37836208666131722)
