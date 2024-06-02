@@ -1,5 +1,4 @@
--- 5/24/2024 chg 1
-prompt --7application/create_application
+prompt --application/create_application
 begin
 wwv_flow_api.create_flow(
  p_id=>wwv_flow.g_flow_id
@@ -64,7 +63,7 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_04=>'APP_NAME'
 ,p_substitution_value_04=>'Bug Tracker'
 ,p_last_updated_by=>'ADMIN'
-,p_last_upd_yyyymmddhh24miss=>'20210414104040'
+,p_last_upd_yyyymmddhh24miss=>'20240602090021'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
