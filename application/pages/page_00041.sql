@@ -23,7 +23,8 @@ wwv_flow_api.create_page(
 '<p><b>Disabling Access Control</b> means that access to the application and all of its features including Administration are open to any user who can authenticate to the application.</p>',
 '<br>',
 '<p>Note: Irrespective of whether Access Control is enabled or disabled, a user still has to authenticate successfully into the application.</p>'))
-,p_last_upd_yyyymmddhh24miss=>'20171009062402'
+,p_last_updated_by=>'ADMIN'
+,p_last_upd_yyyymmddhh24miss=>'20240801102708'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3802373831987924339)
