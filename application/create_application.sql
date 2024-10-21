@@ -29,7 +29,7 @@ wwv_flow_api.create_flow(
 '1.0.39 -> 1.0.40: Added "Rename Application" page and supporting application items, computations, substitution strings, item and region  changes on login pages, and UI Logo text replacement.',
 '1.0.42 -> 1.0.43: Add Notifications to Mobile home page.',
 '1.0.43 -> 1.0.44: Added "Bulk Add Users" feature',
-'1.0.46 -> 1.0.47: Error handling procedure updated to account for bug 17516350',
+'1.0.46 -> 1.0.47: Error handling procedure updated to account for bug 175163501',
 '1.0.47 -> 1.0.48: Implemented redesigned administrative ACL controls',
 '1.0.48 -> 1.0.49: Added Usage Metrics region plugin to page 31 (Bug details)'))
 ,p_authentication=>'PLUGIN'
