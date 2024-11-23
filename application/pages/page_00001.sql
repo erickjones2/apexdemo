@@ -15,7 +15,7 @@ wwv_flow_api.create_page(
 '',
 ''))
 ,p_step_template=>wwv_flow_api.id(1225652808464288287)
-,p_help_text=>'This page shows several charts and graphs for products that the bugs in this application have been logged against. Changing the product filter on this page not only changes the results displayed on this page, but it also sets the selected product as '
+,p_help_text=>'1This page shows several charts and graphs for products that the bugs in this application have been logged against. Changing the product filter on this page not only changes the results displayed on this page, but it also sets the selected product as '
 ||'the default product to report on in several other pages of the application. Click the <strong>Create Bug</strong> button to create a new bug. The "Recent Bugs" region has a <strong>+</strong> button that can be used to create a new bug as well. All c'
 ||'hart regions have a maximize button in their upper right-hand corner of their region. Most chart regions have a <strong>></strong> button that, when clicked, will display more details about the chart''s data.'
 ,p_last_updated_by=>'ADMIN'
