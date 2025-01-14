@@ -8,7 +8,7 @@ wwv_flow_api.create_list(
 wwv_flow_api.create_list_item(
  p_id=>wwv_flow_api.id(1233762945303660928)
 ,p_list_item_display_sequence=>10
-,p_list_item_link_text=>'Add Update1'
+,p_list_item_link_text=>'Add Update'
 ,p_list_item_link_target=>'f?p=&APP_ID.:64:&SESSION.::&DEBUG.:64:P64_BUG_ID:&P31_ID.:'
 ,p_list_item_icon=>'fa-comment'
 ,p_list_item_current_type=>'TARGET_PAGE'
