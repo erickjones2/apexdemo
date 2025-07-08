@@ -151,6 +151,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'OWNERS'
 ,p_column_display_sequence=>4
 ,p_column_heading=>'Owners'
+,p_use_as_row_header=>'N'
 ,p_column_alignment=>'RIGHT'
 ,p_heading_alignment=>'RIGHT'
 );

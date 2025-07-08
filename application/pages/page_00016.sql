@@ -217,6 +217,7 @@ wwv_flow_imp_page.create_region_column(
 ,p_heading_alignment=>'LEFT'
 ,p_display_sequence=>20
 ,p_value_alignment=>'CENTER'
+,p_use_as_row_header=>false
 ,p_enable_hide=>true
 );
 wwv_flow_imp_page.create_region_column(
@@ -228,6 +229,7 @@ wwv_flow_imp_page.create_region_column(
 ,p_attribute_01=>'Y'
 ,p_attribute_02=>'Y'
 ,p_attribute_03=>'N'
+,p_use_as_row_header=>false
 ,p_enable_hide=>true
 );
 wwv_flow_imp_page.create_interactive_grid(

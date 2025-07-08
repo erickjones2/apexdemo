@@ -71,6 +71,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_query_column_id=>1
 ,p_column_alias=>'ID'
 ,p_column_display_sequence=>1
+,p_use_as_row_header=>'N'
 ,p_hidden_column=>'Y'
 ,p_derived_column=>'N'
 );
@@ -182,6 +183,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_query_column_id=>1
 ,p_column_alias=>'ID'
 ,p_column_display_sequence=>1
+,p_use_as_row_header=>'N'
 ,p_hidden_column=>'Y'
 ,p_derived_column=>'N'
 );
@@ -309,6 +311,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_query_column_id=>4
 ,p_column_alias=>'ID'
 ,p_column_display_sequence=>4
+,p_use_as_row_header=>'N'
 ,p_hidden_column=>'Y'
 ,p_derived_column=>'N'
 );

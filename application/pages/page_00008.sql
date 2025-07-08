@@ -359,6 +359,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'ID'
 ,p_column_display_sequence=>1
 ,p_column_heading=>'ID'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 ,p_hidden_column=>'Y'
 );

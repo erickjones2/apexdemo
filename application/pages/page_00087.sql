@@ -102,6 +102,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'SORT_COLUMN'
 ,p_column_display_sequence=>1
 ,p_column_heading=>'Sort Column'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -110,6 +111,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'EVENT_ATTRIBUTES'
 ,p_column_display_sequence=>2
 ,p_column_heading=>'Event Attributes'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -118,6 +120,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'USER_COLOR'
 ,p_column_display_sequence=>3
 ,p_column_heading=>'User Color'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -126,6 +129,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'USER_AVATAR'
 ,p_column_display_sequence=>4
 ,p_column_heading=>'User Avatar'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -134,6 +138,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'USER_NAME'
 ,p_column_display_sequence=>5
 ,p_column_heading=>'User Name'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -155,6 +160,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'EVENT_ICON'
 ,p_column_display_sequence=>7
 ,p_column_heading=>'Event Icon'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -163,6 +169,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'EVENT_STATUS'
 ,p_column_display_sequence=>8
 ,p_column_heading=>'Event Status'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -171,6 +178,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'EVENT_TYPE'
 ,p_column_display_sequence=>9
 ,p_column_heading=>'Event Type'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -179,6 +187,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'EVENT_TITLE'
 ,p_column_display_sequence=>10
 ,p_column_heading=>'Event Title'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -200,6 +209,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'EVENT_LINK'
 ,p_column_display_sequence=>12
 ,p_column_heading=>'Event Link'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_page_plug(

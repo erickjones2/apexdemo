@@ -123,6 +123,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'VALIDATED_BY'
 ,p_column_display_sequence=>1
 ,p_column_heading=>'Validated By'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -157,6 +158,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'VERIFICATION_COMMENT'
 ,p_column_display_sequence=>4
 ,p_column_heading=>'Comment'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_page_button(

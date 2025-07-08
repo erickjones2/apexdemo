@@ -108,6 +108,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'USERNAME'
 ,p_column_display_sequence=>1
 ,p_column_heading=>'Username'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_columns(
@@ -116,6 +117,7 @@ wwv_flow_imp_page.create_report_columns(
 ,p_column_alias=>'REASON'
 ,p_column_display_sequence=>2
 ,p_column_heading=>'Why Invalid'
+,p_use_as_row_header=>'N'
 ,p_heading_alignment=>'LEFT'
 );
 wwv_flow_imp_page.create_report_region(
